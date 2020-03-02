@@ -10,7 +10,7 @@ User.destroy_all
 Post.destroy_all
 
 # Users
-users = ["Niko", "Zach", "Paul", "Tanya", "Lauren", "Denise", "Bob", "Tamara"]
+users = ["nikod93", "zweb17", "pauljb1118", "tanya95", "lweb88", "denise68", "bob1221", "tamara123"]
 
 users.each do |user|
     User.create(username: user)

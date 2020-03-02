@@ -1,3 +1,6 @@
 class PostsController < ApplicationController
-    belongs_to :user
+    def index
+        posts = Post.all 
+        render json: posts
+    end
 end
