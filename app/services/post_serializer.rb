@@ -1,8 +1,4 @@
 class PostSerializer < ActiveModel::Serializer
-     attributes :image, :location, :description, :date, :likes, :user
-
-     def user 
-        UserSerializer.new(object.user)
-     end 
-
+   attributes :image, :location, :description, :date, :likes, :user
+   belongs_to :user 
 end
