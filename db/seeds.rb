@@ -18,7 +18,7 @@ end
 
 # Posts
 Post.create(image: "https://www.tripsavvy.com/thmb/_aOupXSUtztBazU73zhwPHmVZ-A=/350x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-623337647-5a53c44beb4d52003788e6c0.jpg", location: "Mexico", description: "Wow, beautful", date: "03/01/2020", likes: 2, user_id: User.all.ids.sample)
-Post.create(image: "https://cdn.britannica.com/00/188300-050-972ACBFB/Dolomites-Italian-Alps.jpg", location: "The Dolomites", description: "The Italian Alps", date: "09/14/2019", likes: 4, user_id: User.all.ids.sample)
+Post.create(image: "https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/58419168_10200412070006828_8792990788804935680_n.jpg?_nc_cat=109&_nc_sid=dd9801&_nc_oc=AQmZ6tSupD9fJfAIoT8Jd7S7TaBRFEsu6Hgt-alhpetG94rNEiFSSToeaQ7RyK7hqnI&_nc_ht=scontent-ort2-2.xx&oh=20f89fdc4d210a83ae61e9927ecc9003&oe=5E96D428", location: "The Dolomites", description: "The Italian Alps", date: "09/14/2019", likes: 4, user_id: User.all.ids.sample)
 Post.create(image: "https://www.actionhub.com/wp-content/uploads/2018/06/mount-rainier-national-park-720x600.png", location: "Olympic National Park", description: "Mystical land in the Olympic Peninsula", date: "05/15/2018", likes: 3, user_id: User.all.ids.sample)
 Post.create(image: "https://www.whitefishescapes.com/custimages/explore-glacier-national-park.jpg", location: "Glacier National Park", description: "Crown of the Continent", date: "09/17/2019", likes: 4, user_id: User.all.ids.sample)
 Post.create(image: "https://www.webjet.com.au/travel/wp-content/uploads/2018/09/Florence_Italy.jpg", location: "Florence, Italy", description: "Birthplace of the Renaissance", date: "07/21/2018", likes: 5, user_id: User.all.ids.sample)
