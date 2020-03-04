@@ -9,9 +9,15 @@ class PostsController < ApplicationController
         render json: post
     end
 
+    def update
+        post = Post.find(params[:id])
+        post.update(post_params)
+        render json: post
+    end
+
     private
 
     def post_params
-        params.require(:post).permit(:image, :location, :description, :date, :likes, :user_id)
+        params.require(:post).permit(:image, :location, :description, :tips, :date, :likes, :user_id)
     end
 end
