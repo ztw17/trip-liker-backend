@@ -15,6 +15,12 @@ class PostsController < ApplicationController
         render json: post
     end
 
+    def destroy
+        post = Post.find(params[:id])
+        post.destroy
+        render json: {message: "Success"}
+    end
+
     private
 
     def post_params
