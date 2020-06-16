@@ -174,7 +174,11 @@ GEM
     websocket-driver (0.7.2-java)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+<<<<<<< HEAD
     zeitwerk (2.3.0)
+=======
+    zeitwerk (2.2.2)
+>>>>>>> f5006ca684d87a800570785981db692722fff98e
 
 PLATFORMS
   java
